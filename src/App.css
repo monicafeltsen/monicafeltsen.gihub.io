@@ -26,3 +26,20 @@
 .profile-hero .title h1, h3 {
   margin: 0.2rem 0;
 }
+
+@media only screen and (max-width: 600px) {
+  .profile-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .profile-picture {
+    margin-right: 0;
+  }
+
+  .profile-hero .title {
+    align-items: center;
+  }
+}
