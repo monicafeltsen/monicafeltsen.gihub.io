@@ -9,8 +9,11 @@ function App() {
         <img src={monica} className='profile-picture'/>
         <div className='title'>
           <h1>Monica Feltsen</h1>
-          <h3>Junior systemutvecklare</h3>
+          <h3>Junior full stack developer</h3>
         </div>
+      </div>
+      <div>
+        <p>This page is created with React and TypeScript and will be continuously updated</p>
       </div>
     </>
   )
